@@ -47,6 +47,7 @@ nav {
 	align-items: center;
 	flex-wrap: wrap; /* Allow the nav items to wrap */
 	flex-direction: row;
+	padding-left: 10%;
 }
 
 .hamburger {

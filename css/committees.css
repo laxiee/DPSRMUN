@@ -1,0 +1,98 @@
+.committee-card {
+	overflow: visible;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 10px;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.unsc {
+	background-image: url("../assets/unsc.card.jpg");
+}
+.unga {
+	background-image: url("../assets/unga_card.jpg");
+	flex-direction: row-reverse;
+}
+.aippm {
+	background-image: url("../assets/aippm_card.jpeg");
+}
+.war {
+	background-image: url("../assets/war-card.jpg");
+	flex-direction: row-reverse;
+}
+.ip {
+	background-image: url("../assets/ip_card.jpeg");
+}
+.txt {
+	color: white;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 5vw;
+	flex: 7;
+}
+.txt h1 {
+	font-size: 4vw;
+	text-align: center;
+}
+.txt p {
+	text-align: justify;
+	font-size: 1.5vw;
+}
+.cta {
+	display: flex;
+	flex: 4;
+	flex-direction: column;
+	align-items: center;
+}
+.cta img {
+	height: 25vw;
+	width: 25vw;
+}
+.cta .buttons {
+	width: fit-content;
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+}
+.cta .buttons-2 a {
+	display: none;
+}
+.cta .buttons a {
+	text-align: center;
+	padding: 7px;
+	display: flex;
+	flex-direction: column;
+}
+.button-1,
+.button-2 {
+	margin: 5px;
+	border: 2px solid #ff7fe8;
+	border-radius: 0;
+	background-color: #231b3b;
+	color: white;
+}
+@media (max-width: 788px) {
+	.committee-card {
+		flex-direction: column-reverse;
+	}
+	.txt h1 {
+		font-size: 40px;
+	}
+	.txt p {
+		font-size: 12px;
+	}
+	.cta img {
+		width: 200px;
+		height: 200px;
+	}
+	.cta .buttons-2 a {
+		text-align: center;
+		padding: 7px;
+		display: flex;
+		flex-direction: column;
+	}
+	.cta .buttons {
+		display: none;
+	}
+}

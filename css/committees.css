@@ -8,21 +8,43 @@
 	flex-direction: row;
 }
 .unsc {
-	background-image: url("../assets/unsc.card.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/unsc.card.jpg");
+	overflow: visible;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .unga {
-	background-image: url("../assets/unga_card.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/unga_card.jpg");
+	overflow: visible;
+	background-attachment: fixed;
+	background-size: cover;
 	flex-direction: row-reverse;
 }
 .aippm {
-	background-image: url("../assets/aippm_card.jpeg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/aippm_card.jpeg");
+	overflow: visible;
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: cover;
 }
 .war {
-	background-image: url("../assets/war-card.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/war-card.jpg");
 	flex-direction: row-reverse;
+	overflow: visible;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .ip {
-	background-image: url("../assets/ip_card.jpeg");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/ip_card.jpeg");
+	background-size: cover;
+	overflow: visible;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .txt {
 	color: white;
@@ -32,7 +54,7 @@
 	flex: 7;
 }
 .txt h1 {
-	font-size: 4vw;
+	font-size: 3.5vw;
 	text-align: center;
 }
 .txt p {

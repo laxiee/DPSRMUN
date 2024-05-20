@@ -262,6 +262,10 @@ footer {
 	.btn-register {
 		width: 80%;
 	}
+	body{
+		background-position: 0px 10px;
+		background-size: 200%;
+	}
 }
 
 .slideshow h1 {

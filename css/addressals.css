@@ -58,6 +58,12 @@
 	height: auto;
 }
 @media (max-width: 788px) {
+	.addressals{
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/background.jpg");
+		background-size: cover;
+	background-attachment: fixed;
+background-position: -100px 0px;}
 	.address,
 	.address-2 {
 		flex-direction: column;

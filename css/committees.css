@@ -24,7 +24,7 @@
 }
 .aippm {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../assets/aippm_card.jpeg");
+		url("../assets/aippm_card.jpg");
 	overflow: visible;
 	background-attachment: fixed;
 	background-size: cover;
@@ -40,7 +40,7 @@
 }
 .ip {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../assets/ip_card.jpeg");
+		url("../assets/ip_card.png");
 	background-size: cover;
 	overflow: visible;
 	background-attachment: fixed;

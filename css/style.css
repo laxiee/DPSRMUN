@@ -8,6 +8,8 @@ a {
 	color: white;
 }
 body {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/background.jpg");
 	background-size: cover;
 	background-color: #231b3b;
 	font-family: "Helvetica", Arial, sans-serif;
@@ -107,7 +109,10 @@ nav ul li.active {
 		flex-direction: column;
 		align-items: center;
 	}
-
+nav{
+	flex-direction: row;
+	justify-content: space-between;
+}
 	nav ul li {
 		text-align: center;
 		width: 80%;
@@ -115,15 +120,14 @@ nav ul li.active {
 	}
 
 	.button-container {
-		width: 100%;
 		display: flex;
 		justify-content: center;
-		display: none;
+		
 	}
-
+/* 
 	button {
 		display: none;
-	}
+	} */
 }
 
 .text-main,

@@ -8,10 +8,7 @@ a {
 	color: white;
 }
 body {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../assets/background.jpg");
-	background-size: cover;
-	background-color: #231b3b;
+	
 	font-family: "Helvetica", Arial, sans-serif;
 	margin: 0;
 	padding: 0;
@@ -64,7 +61,7 @@ nav {
 	color: white;
 }
 
-button {
+.abutton {
 	flex-grow: 0;
 	padding: 10px 20px;
 	margin-right: 20px;
@@ -122,12 +119,20 @@ nav{
 	.button-container {
 		display: flex;
 		justify-content: center;
+		height: auto;
 		
 	}
 /* 
 	button {
 		display: none;
 	} */
+}
+.index-main{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/background.jpg");
+	background-color: #231b3b;
+	background-size: cover;
+	padding-top: 10px;
 }
 
 .text-main,
@@ -180,7 +185,6 @@ pre {
 	color: #ffd8f8;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 10vw;
 }
 footer {
 	position: relative;
@@ -246,6 +250,9 @@ footer {
 
 .btn-register:hover {
 	background-color: #0056b3;
+}
+.date{
+	 margin-top: 10px;
 }
 @media (max-width: 768px) {
 	.footer-container {
@@ -324,4 +331,16 @@ footer {
 
 .dot.active {
 	background-color: #ffd5fb;
+}
+
+.timer-heading{
+margin-bottom: 1.5vw;
+}.inner-text{
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10vw;
+	font-weight: 200;
+	font-size: 6vw;
+	color: white;
 }
